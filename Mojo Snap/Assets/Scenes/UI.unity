@@ -374,7 +374,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1214211551}
+      - m_Target: {fileID: 1080023678}
         m_MethodName: MainScreen
         m_Mode: 1
         m_Arguments:
