@@ -627,8 +627,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4, y: -119.9}
-  m_SizeDelta: {x: 737.6, y: 1106.7}
+  m_AnchoredPosition: {x: 5, y: -91}
+  m_SizeDelta: {x: 700.6, y: 1106.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &967194093
 MonoBehaviour:
@@ -652,7 +652,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: fedbba8616dc1a34394532b1552f7519, type: 3}
-    m_FontSize: 60
+    m_FontSize: 58
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 1
@@ -663,11 +663,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "1. Before capturing, ensure that the application has Camera and Audio Permission
-    .\n2. Make Sure while taking picture or recording video, the standee should not
-    be completely covered by the individual.\r\n3. The image and videos will be directly
-    saved to the destined location.\r\n4. You can easily select what your favourite
-    character should do.\r\n"
+  m_Text: '1. Click on Start Button to get Mojo Snap''s Magical experience.
+
+    2. Point your device''s Camera at the Poster Image.
+
+    3. Once the Character appers on screen in your environment, choose different animations.
+
+    4. Tap the Camera Button to take Photo with the Character Or,
+
+    5. Tap the Video Camera Button to record the Video with the Character and tap
+    anywhere on the screen to stop recording.
+
+    6. The Images and Recorded Videos will be automatically saved in application''s
+    destination folder.'
 --- !u!222 &967194094
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -897,8 +905,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 289, y: -588}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchoredPosition: {x: 298.4, y: -588}
+  m_SizeDelta: {x: 140, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1400351370
 MonoBehaviour:
@@ -1223,7 +1231,7 @@ RectTransform:
   m_GameObject: {fileID: 1914961643}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 967194092}
   - {fileID: 1400351369}
