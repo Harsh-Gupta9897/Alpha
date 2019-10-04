@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-
+//scene recording
 // Protection level: dangerous permissions 2015/11/25
 // http://developer.android.com/intl/ja/reference/android/Manifest.permission.html
 public enum AndroidPermission
