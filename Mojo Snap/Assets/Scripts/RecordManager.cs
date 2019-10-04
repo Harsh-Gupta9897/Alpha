@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//record manager script
 namespace Recorder
 {
     [RequireComponent(typeof(ScreenRecorder))]
