@@ -111,8 +111,10 @@ namespace Recorder
                 case "init_record_success":
                     break;
                 case "start_record":
+                //to start recording
                     break;
                 case "stop_record":
+                //to stop recording
                     break;
             }
         }
