@@ -50,6 +50,7 @@ namespace Recorder
         using (AndroidJavaClass unityClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer"))
         {
             androidRecorder = unityClass.GetStatic<AndroidJavaObject>("currentActivity");
+            //current activity
             int width = (int)(Screen.width > SCREEN_WIDTH ? SCREEN_WIDTH : Screen.width);
             int height = Screen.width > SCREEN_WIDTH ? (int)(Screen.height * SCREEN_WIDTH / Screen.width) : Screen.height;
             androidRecorder.Call("setupVideo", width, height,(int)(1f * width * height / 100 * 240 * 7), 30);
@@ -61,6 +62,7 @@ namespace Recorder
         {
 #if UNITY_ANDROID && !UNITY_EDITOR
     androidRecorder.Call("cleanUpRecorder");
+    //recording
 #endif
         }
         #region Android Recorder
